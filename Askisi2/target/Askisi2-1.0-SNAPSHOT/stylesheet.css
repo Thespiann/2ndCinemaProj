@@ -1,0 +1,181 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.full-page
+{
+    height: 100%;
+    width: 100%;
+    background-image:url(pictures/bg.jpg);
+    background-color: rgba(22, 39, 80, 0.8);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    transition: background-image 0.8s ease-in-out;
+    background-repeat: no-repeat;
+}
+.form-box
+{
+    width:380px;
+    height:550px;
+    position:relative;
+    margin:2% auto;
+    background: rgba(44, 54, 98, 0.71);
+    padding:10px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+.button-box
+{
+    width:220px;
+    margin:35px auto;
+    position:relative;
+    box-shadow: 0 0 20px 9px rgba(7, 20, 52, 0.65);
+    border-radius: 30px;
+}
+.btn1
+{
+    padding:10px 30px;
+    cursor:pointer;
+    background:transparent;
+    border:0;
+    outline: none;
+    position: relative;
+    font-weight: bold;
+
+}
+.btn2
+{
+    cursor: pointer;
+    display: block;
+    margin: 0;
+    background: transparent;
+    outline: none;
+    border:0;
+    text-align: left;
+    font-weight: bold;
+    font-size:12px;
+    color: #96ceee;
+    transition: color 0.3s ease-in-out;
+}
+.btn2:hover{
+    color: #757f9a;
+}
+#btn
+{
+    top: 0;
+    left:0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: #96ceee;
+    border-radius: 30px;
+    transition: .5s;
+    color: #071434;
+    font-weight: 600;
+}
+.user_input_login
+{
+    top: 150px;
+    position:absolute;
+    width:280px;
+    transition:.5s;
+}
+.user_input_reg
+{
+    top: 90px;
+    position:absolute;
+    width:280px;
+    transition:.5s;
+}
+.input
+{
+    width: 100%;
+    padding:10px 0;
+    margin:5px 0;
+    border-left:0;
+    border-top:0;
+    border-right:0;
+    border-bottom: 1px solid #999;
+    outline:none;
+    background: transparent;
+    transition: border-color 0.2s ease-in-out;
+}
+.input:hover{
+    border-bottom: 1px solid #071434;
+}
+.input:hover::placeholder{
+    color: #071434;
+}
+.sb
+{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: #96ceee;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+.sb:hover{
+    background: #757f9a;
+}
+.chk
+{
+    margin: 30px 10px 34px 0;
+}
+span
+{
+    color:#777;
+    font-size:12px;
+    bottom:68px;
+    position:absolute;
+}
+h1{
+    color: #e3ebf1;
+    font-size:30px;
+    position: relative;
+    font-family: "Times New Roman", serif;
+    text-align: center;
+    font-weight: lighter;
+}
+
+h2{
+    color:#777;
+    font-size:12px;
+    position: relative;
+    font-weight: lighter;
+}
+h3{
+    color: #8a4040;
+    font-size:10px;
+    position: relative;
+    font-weight: lighter;
+}
+
+#login
+{
+    left:50px;
+}
+#login input
+{
+    color:white;
+    font-size:15px;
+}
+#register
+{
+    left:450px;
+}
+#register input
+{
+    color:white;
+    font-size: 15px;
+}
